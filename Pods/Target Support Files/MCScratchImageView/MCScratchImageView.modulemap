@@ -1,0 +1,6 @@
+framework module MCScratchImageView {
+  umbrella header "MCScratchImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

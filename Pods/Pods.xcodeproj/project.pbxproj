@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074F987EF44F42698FF007C670B85BB1 /* Pods-Emoji Quiz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE5C0553B96EA5508E7CEA78415F23A2 /* Pods-Emoji Quiz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C3EC679CF8611B55BA7EFAB9BC1DD7 /* Pods-Emoji Quiz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0258AFDE92765E0A8B13E1D92D42008D /* Pods-Emoji Quiz-dummy.m */; };
+		2F5E42072A3D74254BE0F0EBD385E57D /* MCScratchImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF458EEF4DB08C70AEFF9F00A1BD8A /* MCScratchImageView.swift */; };
+		33B22D095C6F49964D73D9D4DB9DC43A /* MCScratchImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE064D7D3B5D8DBAF7A92978D1B84B /* MCScratchImageView-dummy.m */; };
+		5D918CE76A93599BDDFFD949EB5AE789 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8FBE60A985814BA841EE51970883F785 /* MCScratchImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC6D6C328A1C4B049A4EC19ADB165D7 /* MCScratchImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		960C586471A8E29678038DCA2EAF8B47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		CE48399F08DDA2CE302F526AE735C73A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB0298316B642479891A16687C87E9D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 170FA36BF18A555DBA14C1E2D43E5AD8;
+			remoteInfo = MCScratchImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0258AFDE92765E0A8B13E1D92D42008D /* Pods-Emoji Quiz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Emoji Quiz-dummy.m"; sourceTree = "<group>"; };
+		0C4E7DC8416AC0ADBEDBFC3C4943C54C /* Pods-Emoji Quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Emoji Quiz.release.xcconfig"; sourceTree = "<group>"; };
+		0E0A8C58AECEBCF679C76905192026A2 /* Pods-Emoji Quiz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Emoji Quiz-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1645043A78BACD9B0118D7D5FE2A238D /* Pods-Emoji Quiz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Emoji Quiz.modulemap"; sourceTree = "<group>"; };
+		1F9CF1375C525CE60202F002ACB59443 /* Pods-Emoji Quiz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Emoji Quiz-acknowledgements.plist"; sourceTree = "<group>"; };
+		28CE064D7D3B5D8DBAF7A92978D1B84B /* MCScratchImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCScratchImageView-dummy.m"; sourceTree = "<group>"; };
+		38CAE59111B5856013D817A9124A7C72 /* Pods_Emoji_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Emoji_Quiz.framework; path = "Pods-Emoji Quiz.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F4700367F83F580096ABB7C35D0EE8 /* MCScratchImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCScratchImageView.xcconfig; sourceTree = "<group>"; };
+		825FBC28BB5A30B291C60E2A0F3638CB /* Pods-Emoji Quiz-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Emoji Quiz-frameworks.sh"; sourceTree = "<group>"; };
+		86E54B22359E1545ACD8314C5C9F28A1 /* MCScratchImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MCScratchImageView.framework; path = MCScratchImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEB42C8457E6C417F976926DEEB2604C /* MCScratchImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCScratchImageView-prefix.pch"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CAC6D6C328A1C4B049A4EC19ADB165D7 /* MCScratchImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCScratchImageView-umbrella.h"; sourceTree = "<group>"; };
+		CCBDCB1254F37F7C677A515966C506BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24856FD6E65B53017F0F3DFC7BC91FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C12C9A52A2A58F08942CF585AB8962 /* Pods-Emoji Quiz-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Emoji Quiz-resources.sh"; sourceTree = "<group>"; };
+		D50DD52FCD9968E20BAAE6788C75A2E2 /* MCScratchImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MCScratchImageView.modulemap; sourceTree = "<group>"; };
+		D64D8EAA4330F269115312F76C300794 /* Pods-Emoji Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Emoji Quiz.debug.xcconfig"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DECF458EEF4DB08C70AEFF9F00A1BD8A /* MCScratchImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCScratchImageView.swift; path = MCScratchImageView/MCScratchImageView.swift; sourceTree = "<group>"; };
+		EE5C0553B96EA5508E7CEA78415F23A2 /* Pods-Emoji Quiz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Emoji Quiz-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87F9E6BC5001B79B3010122BD1BAC102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE48399F08DDA2CE302F526AE735C73A /* Foundation.framework in Frameworks */,
+				960C586471A8E29678038DCA2EAF8B47 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2132953E0AD467B3FD97D9A0F0F1C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D918CE76A93599BDDFFD949EB5AE789 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		117E55C8D108218ED99F5DF3EE03B48C /* Pods-Emoji Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				CCBDCB1254F37F7C677A515966C506BB /* Info.plist */,
+				1645043A78BACD9B0118D7D5FE2A238D /* Pods-Emoji Quiz.modulemap */,
+				0E0A8C58AECEBCF679C76905192026A2 /* Pods-Emoji Quiz-acknowledgements.markdown */,
+				1F9CF1375C525CE60202F002ACB59443 /* Pods-Emoji Quiz-acknowledgements.plist */,
+				0258AFDE92765E0A8B13E1D92D42008D /* Pods-Emoji Quiz-dummy.m */,
+				825FBC28BB5A30B291C60E2A0F3638CB /* Pods-Emoji Quiz-frameworks.sh */,
+				D2C12C9A52A2A58F08942CF585AB8962 /* Pods-Emoji Quiz-resources.sh */,
+				EE5C0553B96EA5508E7CEA78415F23A2 /* Pods-Emoji Quiz-umbrella.h */,
+				D64D8EAA4330F269115312F76C300794 /* Pods-Emoji Quiz.debug.xcconfig */,
+				0C4E7DC8416AC0ADBEDBFC3C4943C54C /* Pods-Emoji Quiz.release.xcconfig */,
+			);
+			name = "Pods-Emoji Quiz";
+			path = "Target Support Files/Pods-Emoji Quiz";
+			sourceTree = "<group>";
+		};
+		29404ED9368BC814A210A1FC8A5FA99D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86E54B22359E1545ACD8314C5C9F28A1 /* MCScratchImageView.framework */,
+				38CAE59111B5856013D817A9124A7C72 /* Pods_Emoji_Quiz.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AE50F594C8AB1A540E92B6ADB89B03C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				117E55C8D108218ED99F5DF3EE03B48C /* Pods-Emoji Quiz */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D61951A39018D7B5D321C1170335C7CA /* Pods */,
+				29404ED9368BC814A210A1FC8A5FA99D /* Products */,
+				2AE50F594C8AB1A540E92B6ADB89B03C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C44B847F8B268C745F0712D8E390D7A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D24856FD6E65B53017F0F3DFC7BC91FD /* Info.plist */,
+				D50DD52FCD9968E20BAAE6788C75A2E2 /* MCScratchImageView.modulemap */,
+				42F4700367F83F580096ABB7C35D0EE8 /* MCScratchImageView.xcconfig */,
+				28CE064D7D3B5D8DBAF7A92978D1B84B /* MCScratchImageView-dummy.m */,
+				AEB42C8457E6C417F976926DEEB2604C /* MCScratchImageView-prefix.pch */,
+				CAC6D6C328A1C4B049A4EC19ADB165D7 /* MCScratchImageView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MCScratchImageView";
+			sourceTree = "<group>";
+		};
+		C7136CEE62F7C8ECD9BB0FB53AA0F9AB /* MCScratchImageView */ = {
+			isa = PBXGroup;
+			children = (
+				DECF458EEF4DB08C70AEFF9F00A1BD8A /* MCScratchImageView.swift */,
+				C44B847F8B268C745F0712D8E390D7A7 /* Support Files */,
+			);
+			name = MCScratchImageView;
+			path = MCScratchImageView;
+			sourceTree = "<group>";
+		};
+		D61951A39018D7B5D321C1170335C7CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7136CEE62F7C8ECD9BB0FB53AA0F9AB /* MCScratchImageView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B67900E611731447B68772BEF62E98E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074F987EF44F42698FF007C670B85BB1 /* Pods-Emoji Quiz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDBCA952D83B668DCE1DF9C0B8EEF22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBE60A985814BA841EE51970883F785 /* MCScratchImageView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		170FA36BF18A555DBA14C1E2D43E5AD8 /* MCScratchImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68424727F6075A3A07465C84D11DBE19 /* Build configuration list for PBXNativeTarget "MCScratchImageView" */;
+			buildPhases = (
+				A3B50329D33014D3143ADBEE40B6D845 /* Sources */,
+				87F9E6BC5001B79B3010122BD1BAC102 /* Frameworks */,
+				DDDBCA952D83B668DCE1DF9C0B8EEF22 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCScratchImageView;
+			productName = MCScratchImageView;
+			productReference = 86E54B22359E1545ACD8314C5C9F28A1 /* MCScratchImageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B59142F2B1E32BFAD115A127BD303D08 /* Pods-Emoji Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7271DEDE1F68FD06F0E5A48B26BEE722 /* Build configuration list for PBXNativeTarget "Pods-Emoji Quiz" */;
+			buildPhases = (
+				C98B0A7B0FEF348E09F7BF56B8159EF0 /* Sources */,
+				C2132953E0AD467B3FD97D9A0F0F1C61 /* Frameworks */,
+				0B67900E611731447B68772BEF62E98E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78DF61C2A0A35EFE3D14909F1E8B12AA /* PBXTargetDependency */,
+			);
+			name = "Pods-Emoji Quiz";
+			productName = "Pods-Emoji Quiz";
+			productReference = 38CAE59111B5856013D817A9124A7C72 /* Pods_Emoji_Quiz.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 29404ED9368BC814A210A1FC8A5FA99D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				170FA36BF18A555DBA14C1E2D43E5AD8 /* MCScratchImageView */,
+				B59142F2B1E32BFAD115A127BD303D08 /* Pods-Emoji Quiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3B50329D33014D3143ADBEE40B6D845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B22D095C6F49964D73D9D4DB9DC43A /* MCScratchImageView-dummy.m in Sources */,
+				2F5E42072A3D74254BE0F0EBD385E57D /* MCScratchImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98B0A7B0FEF348E09F7BF56B8159EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C3EC679CF8611B55BA7EFAB9BC1DD7 /* Pods-Emoji Quiz-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78DF61C2A0A35EFE3D14909F1E8B12AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MCScratchImageView;
+			target = 170FA36BF18A555DBA14C1E2D43E5AD8 /* MCScratchImageView */;
+			targetProxy = FB0298316B642479891A16687C87E9D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13A95306D85E4471AB6BE665B012E60A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8E8333274F4AB64785B04AB5B2A37231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9F8191916446E4E16B53757E6000550B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F4700367F83F580096ABB7C35D0EE8 /* MCScratchImageView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MCScratchImageView/MCScratchImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MCScratchImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MCScratchImageView/MCScratchImageView.modulemap";
+				PRODUCT_NAME = MCScratchImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF5215F9FE434402A2F56F13B4677C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64D8EAA4330F269115312F76C300794 /* Pods-Emoji Quiz.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Emoji Quiz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Emoji Quiz/Pods-Emoji Quiz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Emoji_Quiz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4416C3772A8202597475FE32DE15DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F4700367F83F580096ABB7C35D0EE8 /* MCScratchImageView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MCScratchImageView/MCScratchImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MCScratchImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MCScratchImageView/MCScratchImageView.modulemap";
+				PRODUCT_NAME = MCScratchImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5A5CA6C2539CA50A729E59283FB035E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4E7DC8416AC0ADBEDBFC3C4943C54C /* Pods-Emoji Quiz.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Emoji Quiz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Emoji Quiz/Pods-Emoji Quiz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Emoji_Quiz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A95306D85E4471AB6BE665B012E60A /* Debug */,
+				8E8333274F4AB64785B04AB5B2A37231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68424727F6075A3A07465C84D11DBE19 /* Build configuration list for PBXNativeTarget "MCScratchImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8191916446E4E16B53757E6000550B /* Debug */,
+				B4416C3772A8202597475FE32DE15DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7271DEDE1F68FD06F0E5A48B26BEE722 /* Build configuration list for PBXNativeTarget "Pods-Emoji Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5215F9FE434402A2F56F13B4677C21 /* Debug */,
+				B5A5CA6C2539CA50A729E59283FB035E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

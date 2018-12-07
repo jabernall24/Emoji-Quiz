@@ -1,0 +1,1086 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E15AD372079695500B0AAD2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E15AD362079695500B0AAD2 /* Launch Screen.storyboard */; };
+		6E20F67D207315B100F6805B /* NFLQuizQuestionNumberLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20F67C207315B100F6805B /* NFLQuizQuestionNumberLabel.swift */; };
+		6E20F67F2073183400F6805B /* FlagQuestionNumberLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20F67E2073183400F6805B /* FlagQuestionNumberLabel.swift */; };
+		6E20F68120731A9400F6805B /* WorldCup2014QuestionNumberLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20F68020731A9400F6805B /* WorldCup2014QuestionNumberLabel.swift */; };
+		6E20F68320731BBB00F6805B /* WorldCup2018QuestionNumberLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20F68220731BBB00F6805B /* WorldCup2018QuestionNumberLabel.swift */; };
+		6E20F68520731C5A00F6805B /* SmileyQuestionNumberLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20F68420731C5A00F6805B /* SmileyQuestionNumberLabel.swift */; };
+		6E20F68720731CF900F6805B /* AnimalQuestionNumberLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20F68620731CF900F6805B /* AnimalQuestionNumberLabel.swift */; };
+		6E20F68B207327CF00F6805B /* emoji.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E20F68A207327CF00F6805B /* emoji.mp4 */; };
+		6E30ACA5207185CA00B61009 /* FlagPreviousAnswerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E30ACA4207185CA00B61009 /* FlagPreviousAnswerLabel.swift */; };
+		6E576C412072DBB800B00A85 /* NFLQuizScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E576C402072DBB800B00A85 /* NFLQuizScoreLabel.swift */; };
+		6E576C432072DDBB00B00A85 /* NFLQuizImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E576C422072DDBB00B00A85 /* NFLQuizImageView.swift */; };
+		6E576C452072DF1200B00A85 /* NFLQuizPreviousAnswerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E576C442072DF1200B00A85 /* NFLQuizPreviousAnswerLabel.swift */; };
+		6E576C472072E15000B00A85 /* NFLImageSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E576C462072E15000B00A85 /* NFLImageSelector.swift */; };
+		6E576C492072E16400B00A85 /* NFLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E576C482072E16400B00A85 /* NFLImage.swift */; };
+		6E5A19D820852973006A840F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6E5A19D720852973006A840F /* Podfile */; };
+		6E5A19DB20852FD4006A840F /* nsslKobe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E5A19D920852FD3006A840F /* nsslKobe.jpg */; };
+		6E5A19DC20852FD4006A840F /* nssllakers logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5A19DA20852FD4006A840F /* nssllakers logo.png */; };
+		6E626B9321BA63DE00D74381 /* backgroundSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6E626B9221BA63DD00D74381 /* backgroundSound.mp3 */; };
+		6E626B9521BA63E900D74381 /* Correct-answer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6E626B9421BA63E900D74381 /* Correct-answer.mp3 */; };
+		6E626B9721BA63F100D74381 /* Wrong-answer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6E626B9621BA63F100D74381 /* Wrong-answer.mp3 */; };
+		6E8AEB482071D9170060B264 /* SmileyPreviousAnswerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB472071D9170060B264 /* SmileyPreviousAnswerLabel.swift */; };
+		6E8AEB4A2071E1FC0060B264 /* AnimalPreviousAnswerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB492071E1FC0060B264 /* AnimalPreviousAnswerLabel.swift */; };
+		6E8AEB4C2071E3460060B264 /* FlagQuizzesOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB4B2071E3460060B264 /* FlagQuizzesOptions.swift */; };
+		6E8AEB532071E5710060B264 /* ChooseQuizLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB522071E5710060B264 /* ChooseQuizLabel.swift */; };
+		6E8AEB592071F3FE0060B264 /* ChooseWorldCupLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB582071F3FE0060B264 /* ChooseWorldCupLabel.swift */; };
+		6E8AEB5C2071F47D0060B264 /* WorldCupQuizzesOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB5B2071F47D0060B264 /* WorldCupQuizzesOptions.swift */; };
+		6E8AEB632071F7CB0060B264 /* WorldCup2018Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB622071F7CB0060B264 /* WorldCup2018Emoji.swift */; };
+		6E8AEB652071F7E40060B264 /* WorldCup2018EmojiSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB642071F7E40060B264 /* WorldCup2018EmojiSelector.swift */; };
+		6E8AEB672071FB5C0060B264 /* WorldCup2018ScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB662071FB5C0060B264 /* WorldCup2018ScoreLabel.swift */; };
+		6E8AEB692071FB770060B264 /* WorldCup2018LevelEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB682071FB770060B264 /* WorldCup2018LevelEmoji.swift */; };
+		6E8AEB6B2071FBA90060B264 /* WorldCup2018PreviousAnswerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB6A2071FBA90060B264 /* WorldCup2018PreviousAnswerLabel.swift */; };
+		6E8AEB6D2071FC440060B264 /* WorldCup2018Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB6C2071FC440060B264 /* WorldCup2018Quiz.swift */; };
+		6E8AEB742072033E0060B264 /* WorldCup2014Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB732072033E0060B264 /* WorldCup2014Emoji.swift */; };
+		6E8AEB762072034F0060B264 /* WorldCup2014EmojiSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB752072034F0060B264 /* WorldCup2014EmojiSelector.swift */; };
+		6E8AEB782072039D0060B264 /* WorldCup2014ScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB772072039D0060B264 /* WorldCup2014ScoreLabel.swift */; };
+		6E8AEB7A207203B40060B264 /* WorldCup2014LevelEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB79207203B40060B264 /* WorldCup2014LevelEmoji.swift */; };
+		6E8AEB7C207203DF0060B264 /* WorldCup2014PreviousAnswerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB7B207203DF0060B264 /* WorldCup2014PreviousAnswerLabel.swift */; };
+		6E8AEB7E2072042C0060B264 /* WorldCup2014Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AEB7D2072042C0060B264 /* WorldCup2014Quiz.swift */; };
+		6EA8DD282074191A004AD5F4 /* WorldCup2014EmojiMatchups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA8DD272074191A004AD5F4 /* WorldCup2014EmojiMatchups.swift */; };
+		6EA8DD2B2074195C004AD5F4 /* WorldCup2014MatchupSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA8DD2A2074195C004AD5F4 /* WorldCup2014MatchupSelector.swift */; };
+		6EC7E7D12071BD11008A808D /* NFLQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7E7D02071BD11008A808D /* NFLQuizViewController.swift */; };
+		6ECA6EAA213A13840032E4FA /* HighScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECA6EA9213A13840032E4FA /* HighScoreViewController.swift */; };
+		6ECEA81220703383006C8A6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA81120703383006C8A6F /* AppDelegate.swift */; };
+		6ECEA81420703383006C8A6F /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA81320703383006C8A6F /* HomePageViewController.swift */; };
+		6ECEA81920703383006C8A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECEA81820703383006C8A6F /* Assets.xcassets */; };
+		6ECEA824207033E2006C8A6F /* ThemeMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA823207033E2006C8A6F /* ThemeMusic.swift */; };
+		6ECEA82A20703456006C8A6F /* AppLogoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA82920703456006C8A6F /* AppLogoImageView.swift */; };
+		6ECEA8302070349F006C8A6F /* StartButtonTouchedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA82D2070349F006C8A6F /* StartButtonTouchedViewController.swift */; };
+		6ECEA83F207034D4006C8A6F /* AnimalEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA833207034D4006C8A6F /* AnimalEmoji.swift */; };
+		6ECEA840207034D4006C8A6F /* AnimalEmojiSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA834207034D4006C8A6F /* AnimalEmojiSelector.swift */; };
+		6ECEA842207034D4006C8A6F /* LvlLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA837207034D4006C8A6F /* LvlLabel.swift */; };
+		6ECEA843207034D4006C8A6F /* AnimalScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA838207034D4006C8A6F /* AnimalScoreLabel.swift */; };
+		6ECEA845207034D4006C8A6F /* TimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA83A207034D4006C8A6F /* TimeLabel.swift */; };
+		6ECEA846207034D4006C8A6F /* QuizLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA83B207034D4006C8A6F /* QuizLabel.swift */; };
+		6ECEA847207034D4006C8A6F /* AnimalLevelEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA83C207034D4006C8A6F /* AnimalLevelEmoji.swift */; };
+		6ECEA848207034D4006C8A6F /* AnimalQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA83E207034D4006C8A6F /* AnimalQuiz.swift */; };
+		6ECEA8532070350D006C8A6F /* SmileyQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA84B2070350D006C8A6F /* SmileyQuiz.swift */; };
+		6ECEA8542070350D006C8A6F /* SmileyEmojiSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA84D2070350D006C8A6F /* SmileyEmojiSelector.swift */; };
+		6ECEA8552070350D006C8A6F /* SmileyEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA84E2070350D006C8A6F /* SmileyEmoji.swift */; };
+		6ECEA8572070350D006C8A6F /* SmileyLevelEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA8512070350D006C8A6F /* SmileyLevelEmoji.swift */; };
+		6ECEA8582070350D006C8A6F /* SmileyScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA8522070350D006C8A6F /* SmileyScoreLabel.swift */; };
+		6ECEA86320703538006C8A6F /* FlagEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA85B20703538006C8A6F /* FlagEmoji.swift */; };
+		6ECEA86420703538006C8A6F /* FlagEmojiSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA85C20703538006C8A6F /* FlagEmojiSelector.swift */; };
+		6ECEA86620703538006C8A6F /* FlagScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA85F20703538006C8A6F /* FlagScoreLabel.swift */; };
+		6ECEA86720703538006C8A6F /* FlagLevelEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA86020703538006C8A6F /* FlagLevelEmoji.swift */; };
+		6ECEA86820703538006C8A6F /* AllFlagsQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA86220703538006C8A6F /* AllFlagsQuiz.swift */; };
+		6ECEA8732070358D006C8A6F /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEA8712070358D006C8A6F /* ProgressHUD.m */; };
+		6ECEA8742070358D006C8A6F /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6ECEA8722070358D006C8A6F /* ProgressHUD.bundle */; };
+		6EDCDA0720733F1200EF00CB /* ScoreSystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDCDA0620733F1200EF00CB /* ScoreSystemViewController.swift */; };
+		834982A6EF53D831215C831D /* Pods_Emoji_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84656D9D9B392DC96646FF3 /* Pods_Emoji_Quiz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E15AD362079695500B0AAD2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		6E20F67C207315B100F6805B /* NFLQuizQuestionNumberLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLQuizQuestionNumberLabel.swift; sourceTree = "<group>"; };
+		6E20F67E2073183400F6805B /* FlagQuestionNumberLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuestionNumberLabel.swift; sourceTree = "<group>"; };
+		6E20F68020731A9400F6805B /* WorldCup2014QuestionNumberLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2014QuestionNumberLabel.swift; sourceTree = "<group>"; };
+		6E20F68220731BBB00F6805B /* WorldCup2018QuestionNumberLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2018QuestionNumberLabel.swift; sourceTree = "<group>"; };
+		6E20F68420731C5A00F6805B /* SmileyQuestionNumberLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyQuestionNumberLabel.swift; sourceTree = "<group>"; };
+		6E20F68620731CF900F6805B /* AnimalQuestionNumberLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalQuestionNumberLabel.swift; sourceTree = "<group>"; };
+		6E20F68A207327CF00F6805B /* emoji.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = emoji.mp4; sourceTree = "<group>"; };
+		6E30ACA4207185CA00B61009 /* FlagPreviousAnswerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagPreviousAnswerLabel.swift; sourceTree = "<group>"; };
+		6E576C402072DBB800B00A85 /* NFLQuizScoreLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLQuizScoreLabel.swift; sourceTree = "<group>"; };
+		6E576C422072DDBB00B00A85 /* NFLQuizImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLQuizImageView.swift; sourceTree = "<group>"; };
+		6E576C442072DF1200B00A85 /* NFLQuizPreviousAnswerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLQuizPreviousAnswerLabel.swift; sourceTree = "<group>"; };
+		6E576C462072E15000B00A85 /* NFLImageSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLImageSelector.swift; sourceTree = "<group>"; };
+		6E576C482072E16400B00A85 /* NFLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLImage.swift; sourceTree = "<group>"; };
+		6E5A19D720852973006A840F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E5A19D920852FD3006A840F /* nsslKobe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nsslKobe.jpg; sourceTree = "<group>"; };
+		6E5A19DA20852FD4006A840F /* nssllakers logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nssllakers logo.png"; sourceTree = "<group>"; };
+		6E626B9221BA63DD00D74381 /* backgroundSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundSound.mp3; sourceTree = "<group>"; };
+		6E626B9421BA63E900D74381 /* Correct-answer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Correct-answer.mp3"; sourceTree = "<group>"; };
+		6E626B9621BA63F100D74381 /* Wrong-answer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wrong-answer.mp3"; sourceTree = "<group>"; };
+		6E8AEB472071D9170060B264 /* SmileyPreviousAnswerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyPreviousAnswerLabel.swift; sourceTree = "<group>"; };
+		6E8AEB492071E1FC0060B264 /* AnimalPreviousAnswerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalPreviousAnswerLabel.swift; sourceTree = "<group>"; };
+		6E8AEB4B2071E3460060B264 /* FlagQuizzesOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuizzesOptions.swift; sourceTree = "<group>"; };
+		6E8AEB522071E5710060B264 /* ChooseQuizLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseQuizLabel.swift; sourceTree = "<group>"; };
+		6E8AEB582071F3FE0060B264 /* ChooseWorldCupLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseWorldCupLabel.swift; sourceTree = "<group>"; };
+		6E8AEB5B2071F47D0060B264 /* WorldCupQuizzesOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupQuizzesOptions.swift; sourceTree = "<group>"; };
+		6E8AEB622071F7CB0060B264 /* WorldCup2018Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2018Emoji.swift; sourceTree = "<group>"; };
+		6E8AEB642071F7E40060B264 /* WorldCup2018EmojiSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2018EmojiSelector.swift; sourceTree = "<group>"; };
+		6E8AEB662071FB5C0060B264 /* WorldCup2018ScoreLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2018ScoreLabel.swift; sourceTree = "<group>"; };
+		6E8AEB682071FB770060B264 /* WorldCup2018LevelEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2018LevelEmoji.swift; sourceTree = "<group>"; };
+		6E8AEB6A2071FBA90060B264 /* WorldCup2018PreviousAnswerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2018PreviousAnswerLabel.swift; sourceTree = "<group>"; };
+		6E8AEB6C2071FC440060B264 /* WorldCup2018Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2018Quiz.swift; sourceTree = "<group>"; };
+		6E8AEB732072033E0060B264 /* WorldCup2014Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2014Emoji.swift; sourceTree = "<group>"; };
+		6E8AEB752072034F0060B264 /* WorldCup2014EmojiSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2014EmojiSelector.swift; sourceTree = "<group>"; };
+		6E8AEB772072039D0060B264 /* WorldCup2014ScoreLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2014ScoreLabel.swift; sourceTree = "<group>"; };
+		6E8AEB79207203B40060B264 /* WorldCup2014LevelEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2014LevelEmoji.swift; sourceTree = "<group>"; };
+		6E8AEB7B207203DF0060B264 /* WorldCup2014PreviousAnswerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2014PreviousAnswerLabel.swift; sourceTree = "<group>"; };
+		6E8AEB7D2072042C0060B264 /* WorldCup2014Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2014Quiz.swift; sourceTree = "<group>"; };
+		6EA8DD272074191A004AD5F4 /* WorldCup2014EmojiMatchups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2014EmojiMatchups.swift; sourceTree = "<group>"; };
+		6EA8DD2A2074195C004AD5F4 /* WorldCup2014MatchupSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup2014MatchupSelector.swift; sourceTree = "<group>"; };
+		6EC7E7D02071BD11008A808D /* NFLQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLQuizViewController.swift; sourceTree = "<group>"; };
+		6ECA6EA9213A13840032E4FA /* HighScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreViewController.swift; sourceTree = "<group>"; };
+		6ECEA80E20703383006C8A6F /* Emoji Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECEA81120703383006C8A6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ECEA81320703383006C8A6F /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		6ECEA81820703383006C8A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ECEA81D20703383006C8A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECEA823207033E2006C8A6F /* ThemeMusic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeMusic.swift; sourceTree = "<group>"; };
+		6ECEA82920703456006C8A6F /* AppLogoImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLogoImageView.swift; sourceTree = "<group>"; };
+		6ECEA82D2070349F006C8A6F /* StartButtonTouchedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartButtonTouchedViewController.swift; sourceTree = "<group>"; };
+		6ECEA833207034D4006C8A6F /* AnimalEmoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalEmoji.swift; sourceTree = "<group>"; };
+		6ECEA834207034D4006C8A6F /* AnimalEmojiSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalEmojiSelector.swift; sourceTree = "<group>"; };
+		6ECEA837207034D4006C8A6F /* LvlLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LvlLabel.swift; sourceTree = "<group>"; };
+		6ECEA838207034D4006C8A6F /* AnimalScoreLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalScoreLabel.swift; sourceTree = "<group>"; };
+		6ECEA83A207034D4006C8A6F /* TimeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLabel.swift; sourceTree = "<group>"; };
+		6ECEA83B207034D4006C8A6F /* QuizLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizLabel.swift; sourceTree = "<group>"; };
+		6ECEA83C207034D4006C8A6F /* AnimalLevelEmoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalLevelEmoji.swift; sourceTree = "<group>"; };
+		6ECEA83E207034D4006C8A6F /* AnimalQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalQuiz.swift; sourceTree = "<group>"; };
+		6ECEA84B2070350D006C8A6F /* SmileyQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileyQuiz.swift; sourceTree = "<group>"; };
+		6ECEA84D2070350D006C8A6F /* SmileyEmojiSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileyEmojiSelector.swift; sourceTree = "<group>"; };
+		6ECEA84E2070350D006C8A6F /* SmileyEmoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileyEmoji.swift; sourceTree = "<group>"; };
+		6ECEA8512070350D006C8A6F /* SmileyLevelEmoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileyLevelEmoji.swift; sourceTree = "<group>"; };
+		6ECEA8522070350D006C8A6F /* SmileyScoreLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileyScoreLabel.swift; sourceTree = "<group>"; };
+		6ECEA85B20703538006C8A6F /* FlagEmoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagEmoji.swift; sourceTree = "<group>"; };
+		6ECEA85C20703538006C8A6F /* FlagEmojiSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagEmojiSelector.swift; sourceTree = "<group>"; };
+		6ECEA85F20703538006C8A6F /* FlagScoreLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagScoreLabel.swift; sourceTree = "<group>"; };
+		6ECEA86020703538006C8A6F /* FlagLevelEmoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagLevelEmoji.swift; sourceTree = "<group>"; };
+		6ECEA86220703538006C8A6F /* AllFlagsQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllFlagsQuiz.swift; sourceTree = "<group>"; };
+		6ECEA86F2070358B006C8A6F /* Emoji Quiz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Emoji Quiz-Bridging-Header.h"; sourceTree = "<group>"; };
+		6ECEA8702070358C006C8A6F /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		6ECEA8712070358D006C8A6F /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		6ECEA8722070358D006C8A6F /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		6EDCDA0620733F1200EF00CB /* ScoreSystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreSystemViewController.swift; sourceTree = "<group>"; };
+		8D0810B0C0EC1AACF5ACC9B9 /* Pods-Emoji Quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emoji Quiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Emoji Quiz/Pods-Emoji Quiz.release.xcconfig"; sourceTree = "<group>"; };
+		B84656D9D9B392DC96646FF3 /* Pods_Emoji_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emoji_Quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C8A12324433B3DA44D5EE6 /* Pods-Emoji Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emoji Quiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Emoji Quiz/Pods-Emoji Quiz.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ECEA80B20703383006C8A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834982A6EF53D831215C831D /* Pods_Emoji_Quiz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		314BD941D7A618D95AC419DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B84656D9D9B392DC96646FF3 /* Pods_Emoji_Quiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E20F6792072F2FA00F6805B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6EC7E7D02071BD11008A808D /* NFLQuizViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6E20F67A2072F30000F6805B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E576C402072DBB800B00A85 /* NFLQuizScoreLabel.swift */,
+				6E576C422072DDBB00B00A85 /* NFLQuizImageView.swift */,
+				6E576C442072DF1200B00A85 /* NFLQuizPreviousAnswerLabel.swift */,
+				6E20F67C207315B100F6805B /* NFLQuizQuestionNumberLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E20F67B2072F30800F6805B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E576C482072E16400B00A85 /* NFLImage.swift */,
+				6E576C462072E15000B00A85 /* NFLImageSelector.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E8AEB4D2071E4B00060B264 /* AllFlagsQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA85A20703538006C8A6F /* Model */,
+				6ECEA85D20703538006C8A6F /* View */,
+				6ECEA86120703538006C8A6F /* Controller */,
+			);
+			path = AllFlagsQuiz;
+			sourceTree = "<group>";
+		};
+		6E8AEB4E2071E4E30060B264 /* Choose Quiz View */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB512071E5100060B264 /* Model */,
+				6E8AEB502071E50B0060B264 /* View */,
+				6E8AEB4F2071E5020060B264 /* Controller */,
+			);
+			path = "Choose Quiz View";
+			sourceTree = "<group>";
+		};
+		6E8AEB4F2071E5020060B264 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB4B2071E3460060B264 /* FlagQuizzesOptions.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6E8AEB502071E50B0060B264 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB522071E5710060B264 /* ChooseQuizLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E8AEB512071E5100060B264 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E8AEB542071F3800060B264 /* World Cups */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB5E2071F77D0060B264 /* World Cup 2018 */,
+				6E8AEB6E207202F20060B264 /* World Cup 2014 */,
+			);
+			path = "World Cups";
+			sourceTree = "<group>";
+		};
+		6E8AEB552071F3950060B264 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB5B2071F47D0060B264 /* WorldCupQuizzesOptions.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6E8AEB562071F39C0060B264 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB582071F3FE0060B264 /* ChooseWorldCupLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E8AEB572071F3A00060B264 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E8AEB5D2071F7270060B264 /* Choose World Cup View */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB572071F3A00060B264 /* Model */,
+				6E8AEB562071F39C0060B264 /* View */,
+				6E8AEB552071F3950060B264 /* Controller */,
+			);
+			path = "Choose World Cup View";
+			sourceTree = "<group>";
+		};
+		6E8AEB5E2071F77D0060B264 /* World Cup 2018 */ = {
+			isa = PBXGroup;
+			children = (
+				6EA8DD222074189F004AD5F4 /* Countries Quiz */,
+			);
+			path = "World Cup 2018";
+			sourceTree = "<group>";
+		};
+		6E8AEB5F2071F78A0060B264 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB6C2071FC440060B264 /* WorldCup2018Quiz.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6E8AEB602071F7900060B264 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB662071FB5C0060B264 /* WorldCup2018ScoreLabel.swift */,
+				6E8AEB682071FB770060B264 /* WorldCup2018LevelEmoji.swift */,
+				6E8AEB6A2071FBA90060B264 /* WorldCup2018PreviousAnswerLabel.swift */,
+				6E20F68220731BBB00F6805B /* WorldCup2018QuestionNumberLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E8AEB612071F7930060B264 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB622071F7CB0060B264 /* WorldCup2018Emoji.swift */,
+				6E8AEB642071F7E40060B264 /* WorldCup2018EmojiSelector.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E8AEB6E207202F20060B264 /* World Cup 2014 */ = {
+			isa = PBXGroup;
+			children = (
+				6EA8DD2920741924004AD5F4 /* Countries Quiz */,
+				6EA8DD23207418BF004AD5F4 /* Matchups Quiz */,
+			);
+			path = "World Cup 2014";
+			sourceTree = "<group>";
+		};
+		6E8AEB6F2072030C0060B264 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB7D2072042C0060B264 /* WorldCup2014Quiz.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6E8AEB70207203150060B264 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB772072039D0060B264 /* WorldCup2014ScoreLabel.swift */,
+				6E8AEB79207203B40060B264 /* WorldCup2014LevelEmoji.swift */,
+				6E8AEB7B207203DF0060B264 /* WorldCup2014PreviousAnswerLabel.swift */,
+				6E20F68020731A9400F6805B /* WorldCup2014QuestionNumberLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E8AEB712072031A0060B264 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB732072033E0060B264 /* WorldCup2014Emoji.swift */,
+				6E8AEB752072034F0060B264 /* WorldCup2014EmojiSelector.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EA8DD222074189F004AD5F4 /* Countries Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB612071F7930060B264 /* Model */,
+				6E8AEB602071F7900060B264 /* View */,
+				6E8AEB5F2071F78A0060B264 /* Controller */,
+			);
+			path = "Countries Quiz";
+			sourceTree = "<group>";
+		};
+		6EA8DD23207418BF004AD5F4 /* Matchups Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				6EA8DD26207418EA004AD5F4 /* Model */,
+				6EA8DD25207418E5004AD5F4 /* View */,
+				6EA8DD24207418E0004AD5F4 /* Controller */,
+			);
+			path = "Matchups Quiz";
+			sourceTree = "<group>";
+		};
+		6EA8DD24207418E0004AD5F4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6EA8DD25207418E5004AD5F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6EA8DD26207418EA004AD5F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6EA8DD272074191A004AD5F4 /* WorldCup2014EmojiMatchups.swift */,
+				6EA8DD2A2074195C004AD5F4 /* WorldCup2014MatchupSelector.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EA8DD2920741924004AD5F4 /* Countries Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB712072031A0060B264 /* Model */,
+				6E8AEB70207203150060B264 /* View */,
+				6E8AEB6F2072030C0060B264 /* Controller */,
+			);
+			path = "Countries Quiz";
+			sourceTree = "<group>";
+		};
+		6EC7E7CF2071BCE9008A808D /* NFL Teams */ = {
+			isa = PBXGroup;
+			children = (
+				6E20F67B2072F30800F6805B /* Model */,
+				6E20F67A2072F30000F6805B /* View */,
+				6E20F6792072F2FA00F6805B /* Controller */,
+			);
+			name = "NFL Teams";
+			path = "../NFL Teams";
+			sourceTree = "<group>";
+		};
+		6ECA6EA8213A13420032E4FA /* High Scores */ = {
+			isa = PBXGroup;
+			children = (
+				6ECA6EA9213A13840032E4FA /* HighScoreViewController.swift */,
+			);
+			path = "High Scores";
+			sourceTree = "<group>";
+		};
+		6ECEA80520703383006C8A6F = {
+			isa = PBXGroup;
+			children = (
+				6ECEA81020703383006C8A6F /* Emoji Quiz */,
+				6ECEA80F20703383006C8A6F /* Products */,
+				E5752B2FE6C228EC36CE0724 /* Pods */,
+				314BD941D7A618D95AC419DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6ECEA80F20703383006C8A6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA80E20703383006C8A6F /* Emoji Quiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ECEA81020703383006C8A6F /* Emoji Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA81120703383006C8A6F /* AppDelegate.swift */,
+				6ECEA823207033E2006C8A6F /* ThemeMusic.swift */,
+				6ECEA825207033FD006C8A6F /* Home Page */,
+				6ECA6EA8213A13420032E4FA /* High Scores */,
+				6EDCDA0220733EB400EF00CB /* Score System */,
+				6ECEA82B2070347B006C8A6F /* Levels */,
+				6ECEA831207034B2006C8A6F /* Animals */,
+				6ECEA849207034EC006C8A6F /* Smileys */,
+				6ECEA8592070351A006C8A6F /* Flags */,
+				6EC7E7CF2071BCE9008A808D /* NFL Teams */,
+				6ECEA81820703383006C8A6F /* Assets.xcassets */,
+				6E15AD362079695500B0AAD2 /* Launch Screen.storyboard */,
+				6E626B9621BA63F100D74381 /* Wrong-answer.mp3 */,
+				6E626B9421BA63E900D74381 /* Correct-answer.mp3 */,
+				6E626B9221BA63DD00D74381 /* backgroundSound.mp3 */,
+				6ECEA81D20703383006C8A6F /* Info.plist */,
+				6E5A19D920852FD3006A840F /* nsslKobe.jpg */,
+				6E5A19DA20852FD4006A840F /* nssllakers logo.png */,
+				6E20F68A207327CF00F6805B /* emoji.mp4 */,
+				6E5A19D720852973006A840F /* Podfile */,
+				6ECEA8722070358D006C8A6F /* ProgressHUD.bundle */,
+				6ECEA8702070358C006C8A6F /* ProgressHUD.h */,
+				6ECEA8712070358D006C8A6F /* ProgressHUD.m */,
+				6ECEA86F2070358B006C8A6F /* Emoji Quiz-Bridging-Header.h */,
+			);
+			path = "Emoji Quiz";
+			sourceTree = "<group>";
+		};
+		6ECEA825207033FD006C8A6F /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA82720703417006C8A6F /* Model */,
+				6ECEA8282070341D006C8A6F /* View */,
+				6ECEA82620703412006C8A6F /* Controller */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		6ECEA82620703412006C8A6F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA81320703383006C8A6F /* HomePageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6ECEA82720703417006C8A6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6ECEA8282070341D006C8A6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA82920703456006C8A6F /* AppLogoImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6ECEA82B2070347B006C8A6F /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA82F2070349F006C8A6F /* Model */,
+				6ECEA82C2070349F006C8A6F /* View */,
+				6ECEA82E2070349F006C8A6F /* Controller */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		6ECEA82C2070349F006C8A6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA83B207034D4006C8A6F /* QuizLabel.swift */,
+				6ECEA83A207034D4006C8A6F /* TimeLabel.swift */,
+				6ECEA837207034D4006C8A6F /* LvlLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6ECEA82E2070349F006C8A6F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA82D2070349F006C8A6F /* StartButtonTouchedViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6ECEA82F2070349F006C8A6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6ECEA831207034B2006C8A6F /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA832207034D4006C8A6F /* Model */,
+				6ECEA836207034D4006C8A6F /* View */,
+				6ECEA83D207034D4006C8A6F /* Controller */,
+			);
+			path = Animals;
+			sourceTree = "<group>";
+		};
+		6ECEA832207034D4006C8A6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA833207034D4006C8A6F /* AnimalEmoji.swift */,
+				6ECEA834207034D4006C8A6F /* AnimalEmojiSelector.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6ECEA836207034D4006C8A6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA838207034D4006C8A6F /* AnimalScoreLabel.swift */,
+				6ECEA83C207034D4006C8A6F /* AnimalLevelEmoji.swift */,
+				6E8AEB492071E1FC0060B264 /* AnimalPreviousAnswerLabel.swift */,
+				6E20F68620731CF900F6805B /* AnimalQuestionNumberLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6ECEA83D207034D4006C8A6F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA83E207034D4006C8A6F /* AnimalQuiz.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6ECEA849207034EC006C8A6F /* Smileys */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA84C2070350D006C8A6F /* Model */,
+				6ECEA84F2070350D006C8A6F /* View */,
+				6ECEA84A2070350D006C8A6F /* Controller */,
+			);
+			path = Smileys;
+			sourceTree = "<group>";
+		};
+		6ECEA84A2070350D006C8A6F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA84B2070350D006C8A6F /* SmileyQuiz.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6ECEA84C2070350D006C8A6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA84D2070350D006C8A6F /* SmileyEmojiSelector.swift */,
+				6ECEA84E2070350D006C8A6F /* SmileyEmoji.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6ECEA84F2070350D006C8A6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA8512070350D006C8A6F /* SmileyLevelEmoji.swift */,
+				6ECEA8522070350D006C8A6F /* SmileyScoreLabel.swift */,
+				6E8AEB472071D9170060B264 /* SmileyPreviousAnswerLabel.swift */,
+				6E20F68420731C5A00F6805B /* SmileyQuestionNumberLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6ECEA8592070351A006C8A6F /* Flags */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AEB4E2071E4E30060B264 /* Choose Quiz View */,
+				6E8AEB5D2071F7270060B264 /* Choose World Cup View */,
+				6E8AEB542071F3800060B264 /* World Cups */,
+				6E8AEB4D2071E4B00060B264 /* AllFlagsQuiz */,
+			);
+			path = Flags;
+			sourceTree = "<group>";
+		};
+		6ECEA85A20703538006C8A6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA85B20703538006C8A6F /* FlagEmoji.swift */,
+				6ECEA85C20703538006C8A6F /* FlagEmojiSelector.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6ECEA85D20703538006C8A6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA85F20703538006C8A6F /* FlagScoreLabel.swift */,
+				6ECEA86020703538006C8A6F /* FlagLevelEmoji.swift */,
+				6E30ACA4207185CA00B61009 /* FlagPreviousAnswerLabel.swift */,
+				6E20F67E2073183400F6805B /* FlagQuestionNumberLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6ECEA86120703538006C8A6F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEA86220703538006C8A6F /* AllFlagsQuiz.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6EDCDA0220733EB400EF00CB /* Score System */ = {
+			isa = PBXGroup;
+			children = (
+				6EDCDA0520733ECC00EF00CB /* Model */,
+				6EDCDA0420733EC700EF00CB /* View */,
+				6EDCDA0320733EC200EF00CB /* Controller */,
+			);
+			path = "Score System";
+			sourceTree = "<group>";
+		};
+		6EDCDA0320733EC200EF00CB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6EDCDA0620733F1200EF00CB /* ScoreSystemViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6EDCDA0420733EC700EF00CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6EDCDA0520733ECC00EF00CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5752B2FE6C228EC36CE0724 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1C8A12324433B3DA44D5EE6 /* Pods-Emoji Quiz.debug.xcconfig */,
+				8D0810B0C0EC1AACF5ACC9B9 /* Pods-Emoji Quiz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ECEA80D20703383006C8A6F /* Emoji Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECEA82020703383006C8A6F /* Build configuration list for PBXNativeTarget "Emoji Quiz" */;
+			buildPhases = (
+				69BF388BB95ACEF2351D2003 /* [CP] Check Pods Manifest.lock */,
+				6ECEA80A20703383006C8A6F /* Sources */,
+				6ECEA80B20703383006C8A6F /* Frameworks */,
+				6ECEA80C20703383006C8A6F /* Resources */,
+				B0A27060674228A15BC73EFE /* [CP] Embed Pods Frameworks */,
+				9CBA2495890CC1810816B46D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emoji Quiz";
+			productName = "Emoji Quiz";
+			productReference = 6ECEA80E20703383006C8A6F /* Emoji Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ECEA80620703383006C8A6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jesus Andres Bernal Lopez";
+				TargetAttributes = {
+					6ECEA80D20703383006C8A6F = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6ECEA80920703383006C8A6F /* Build configuration list for PBXProject "Emoji Quiz" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ECEA80520703383006C8A6F;
+			productRefGroup = 6ECEA80F20703383006C8A6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ECEA80D20703383006C8A6F /* Emoji Quiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ECEA80C20703383006C8A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E626B9721BA63F100D74381 /* Wrong-answer.mp3 in Resources */,
+				6E5A19DB20852FD4006A840F /* nsslKobe.jpg in Resources */,
+				6ECEA8742070358D006C8A6F /* ProgressHUD.bundle in Resources */,
+				6E626B9321BA63DE00D74381 /* backgroundSound.mp3 in Resources */,
+				6E626B9521BA63E900D74381 /* Correct-answer.mp3 in Resources */,
+				6E5A19D820852973006A840F /* Podfile in Resources */,
+				6ECEA81920703383006C8A6F /* Assets.xcassets in Resources */,
+				6E20F68B207327CF00F6805B /* emoji.mp4 in Resources */,
+				6E15AD372079695500B0AAD2 /* Launch Screen.storyboard in Resources */,
+				6E5A19DC20852FD4006A840F /* nssllakers logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69BF388BB95ACEF2351D2003 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Emoji Quiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CBA2495890CC1810816B46D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Emoji Quiz/Pods-Emoji Quiz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A27060674228A15BC73EFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Emoji Quiz/Pods-Emoji Quiz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MCScratchImageView/MCScratchImageView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MCScratchImageView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Emoji Quiz/Pods-Emoji Quiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ECEA80A20703383006C8A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8AEB672071FB5C0060B264 /* WorldCup2018ScoreLabel.swift in Sources */,
+				6E8AEB652071F7E40060B264 /* WorldCup2018EmojiSelector.swift in Sources */,
+				6ECEA846207034D4006C8A6F /* QuizLabel.swift in Sources */,
+				6ECEA845207034D4006C8A6F /* TimeLabel.swift in Sources */,
+				6ECEA86420703538006C8A6F /* FlagEmojiSelector.swift in Sources */,
+				6E8AEB7E2072042C0060B264 /* WorldCup2014Quiz.swift in Sources */,
+				6ECEA83F207034D4006C8A6F /* AnimalEmoji.swift in Sources */,
+				6E576C412072DBB800B00A85 /* NFLQuizScoreLabel.swift in Sources */,
+				6ECEA82A20703456006C8A6F /* AppLogoImageView.swift in Sources */,
+				6ECEA86720703538006C8A6F /* FlagLevelEmoji.swift in Sources */,
+				6ECEA848207034D4006C8A6F /* AnimalQuiz.swift in Sources */,
+				6ECEA8542070350D006C8A6F /* SmileyEmojiSelector.swift in Sources */,
+				6ECEA8732070358D006C8A6F /* ProgressHUD.m in Sources */,
+				6ECEA843207034D4006C8A6F /* AnimalScoreLabel.swift in Sources */,
+				6EA8DD2B2074195C004AD5F4 /* WorldCup2014MatchupSelector.swift in Sources */,
+				6ECEA8552070350D006C8A6F /* SmileyEmoji.swift in Sources */,
+				6ECEA8572070350D006C8A6F /* SmileyLevelEmoji.swift in Sources */,
+				6ECEA86820703538006C8A6F /* AllFlagsQuiz.swift in Sources */,
+				6E8AEB742072033E0060B264 /* WorldCup2014Emoji.swift in Sources */,
+				6E576C492072E16400B00A85 /* NFLImage.swift in Sources */,
+				6E8AEB482071D9170060B264 /* SmileyPreviousAnswerLabel.swift in Sources */,
+				6E20F67D207315B100F6805B /* NFLQuizQuestionNumberLabel.swift in Sources */,
+				6E8AEB5C2071F47D0060B264 /* WorldCupQuizzesOptions.swift in Sources */,
+				6E576C432072DDBB00B00A85 /* NFLQuizImageView.swift in Sources */,
+				6EA8DD282074191A004AD5F4 /* WorldCup2014EmojiMatchups.swift in Sources */,
+				6E576C472072E15000B00A85 /* NFLImageSelector.swift in Sources */,
+				6E20F68120731A9400F6805B /* WorldCup2014QuestionNumberLabel.swift in Sources */,
+				6ECEA847207034D4006C8A6F /* AnimalLevelEmoji.swift in Sources */,
+				6E20F68520731C5A00F6805B /* SmileyQuestionNumberLabel.swift in Sources */,
+				6E8AEB692071FB770060B264 /* WorldCup2018LevelEmoji.swift in Sources */,
+				6ECEA840207034D4006C8A6F /* AnimalEmojiSelector.swift in Sources */,
+				6E8AEB592071F3FE0060B264 /* ChooseWorldCupLabel.swift in Sources */,
+				6E20F68320731BBB00F6805B /* WorldCup2018QuestionNumberLabel.swift in Sources */,
+				6ECEA86620703538006C8A6F /* FlagScoreLabel.swift in Sources */,
+				6E20F67F2073183400F6805B /* FlagQuestionNumberLabel.swift in Sources */,
+				6E8AEB782072039D0060B264 /* WorldCup2014ScoreLabel.swift in Sources */,
+				6E8AEB7A207203B40060B264 /* WorldCup2014LevelEmoji.swift in Sources */,
+				6ECEA8532070350D006C8A6F /* SmileyQuiz.swift in Sources */,
+				6ECEA81420703383006C8A6F /* HomePageViewController.swift in Sources */,
+				6ECEA81220703383006C8A6F /* AppDelegate.swift in Sources */,
+				6E20F68720731CF900F6805B /* AnimalQuestionNumberLabel.swift in Sources */,
+				6E8AEB532071E5710060B264 /* ChooseQuizLabel.swift in Sources */,
+				6E30ACA5207185CA00B61009 /* FlagPreviousAnswerLabel.swift in Sources */,
+				6EC7E7D12071BD11008A808D /* NFLQuizViewController.swift in Sources */,
+				6ECEA824207033E2006C8A6F /* ThemeMusic.swift in Sources */,
+				6E8AEB7C207203DF0060B264 /* WorldCup2014PreviousAnswerLabel.swift in Sources */,
+				6ECEA8302070349F006C8A6F /* StartButtonTouchedViewController.swift in Sources */,
+				6ECEA86320703538006C8A6F /* FlagEmoji.swift in Sources */,
+				6E8AEB4A2071E1FC0060B264 /* AnimalPreviousAnswerLabel.swift in Sources */,
+				6E576C452072DF1200B00A85 /* NFLQuizPreviousAnswerLabel.swift in Sources */,
+				6ECEA8582070350D006C8A6F /* SmileyScoreLabel.swift in Sources */,
+				6E8AEB762072034F0060B264 /* WorldCup2014EmojiSelector.swift in Sources */,
+				6EDCDA0720733F1200EF00CB /* ScoreSystemViewController.swift in Sources */,
+				6E8AEB4C2071E3460060B264 /* FlagQuizzesOptions.swift in Sources */,
+				6ECEA842207034D4006C8A6F /* LvlLabel.swift in Sources */,
+				6E8AEB6B2071FBA90060B264 /* WorldCup2018PreviousAnswerLabel.swift in Sources */,
+				6ECA6EAA213A13840032E4FA /* HighScoreViewController.swift in Sources */,
+				6E8AEB632071F7CB0060B264 /* WorldCup2018Emoji.swift in Sources */,
+				6E8AEB6D2071FC440060B264 /* WorldCup2018Quiz.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6ECEA81E20703383006C8A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ECEA81F20703383006C8A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ECEA82120703383006C8A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C8A12324433B3DA44D5EE6 /* Pods-Emoji Quiz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT744LDV6K;
+				INFOPLIST_FILE = "Emoji Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesusandresbernallopez.Emoji-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Emoji Quiz/Emoji Quiz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ECEA82220703383006C8A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0810B0C0EC1AACF5ACC9B9 /* Pods-Emoji Quiz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT744LDV6K;
+				INFOPLIST_FILE = "Emoji Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesusandresbernallopez.Emoji-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Emoji Quiz/Emoji Quiz-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ECEA80920703383006C8A6F /* Build configuration list for PBXProject "Emoji Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECEA81E20703383006C8A6F /* Debug */,
+				6ECEA81F20703383006C8A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECEA82020703383006C8A6F /* Build configuration list for PBXNativeTarget "Emoji Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECEA82120703383006C8A6F /* Debug */,
+				6ECEA82220703383006C8A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ECEA80620703383006C8A6F /* Project object */;
+}
