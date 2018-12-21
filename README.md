@@ -6,6 +6,24 @@ Each quiz is formed of 10 questions giving the user 10 seconds to answer each.
 
 Each quiz is out of 100 points, 10 points per question, the user is showed the score they got at the end of the quiz.
 
+## Animals
+<img src='https://imgur.com/IuVadZo' title='Animals' width='' alt='Animals Quiz' />
+
+## Smileys
+<img src='' title='Smileys' width='' alt='Smileys Quiz' />
+
+## All Flags
+<img src='' title='All Flags' width='' alt='All Flags Quiz' />
+
+## Russia 2018
+<img src='' title='Russia 2018' width='' alt='Russia 2018 Quiz' />
+
+## Brazil 2014
+<img src='' title='Brazil 2014' width='' alt='Brazil 2014 Quiz' />
+
+## NFL
+<img src='' title='NFL' width='' alt='NFL Quiz' />
+
 ## MIT License
 
 Copyright (c) 2018 Jesus A. Bernal Lopez
