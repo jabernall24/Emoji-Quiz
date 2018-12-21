@@ -7,7 +7,7 @@ Each quiz is formed of 10 questions giving the user 10 seconds to answer each.
 Each quiz is out of 100 points, 10 points per question, the user is showed the score they got at the end of the quiz.
 
 ## Animals
-<img src='https://imgur.com/IuVadZo' title='Animals' width='' alt='Animals Quiz' />
+<img src='https://imgur.com/IuVadZo.gif' title='Animals' width='' alt='Animals Quiz' />
 
 ## Smileys
 <img src='' title='Smileys' width='' alt='Smileys Quiz' />
