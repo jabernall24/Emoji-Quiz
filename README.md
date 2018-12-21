@@ -6,23 +6,18 @@ Each quiz is formed of 10 questions giving the user 10 seconds to answer each.
 
 Each quiz is out of 100 points, 10 points per question, the user is showed the score they got at the end of the quiz.
 
-## Animals(Sample Run)
-https://imgur.com/IuVadZo.gif
+## Sample Runs ##
+# Animals: https://imgur.com/IuVadZo.gif
 
-## Smileys(Sample Run)
-https://i.imgur.com/e1aYdzK.gif
+# Smileys: https://i.imgur.com/e1aYdzK.gif
 
-## All Flags(Sample Run)
-https://i.imgur.com/S2AnIls.gif
+# All Flags: https://i.imgur.com/S2AnIls.gif
 
-## Russia 2018(Sample Run)
-https://i.imgur.com/4ANWQPo.gif
+# Russia 2018: https://i.imgur.com/4ANWQPo.gif
 
-## Brazil 2014(Sample Run)
-https://i.imgur.com/NW4UTst.gif
+# Brazil 2014: https://i.imgur.com/NW4UTst.gif
 
-## NFL(Sample Run)
-https://i.imgur.com/TzNFmsB.gif
+# NFL: https://i.imgur.com/TzNFmsB.gif
 
 ## MIT License
 
