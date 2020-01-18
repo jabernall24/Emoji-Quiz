@@ -7,17 +7,23 @@ Each quiz is formed of 10 questions giving the user 10 seconds to answer each.
 Each quiz is out of 100 points, 10 points per question, the user is showed the score they got at the end of the quiz.
 
 ## Sample Runs ##
-# Animals: https://imgur.com/IuVadZo.gif
+# Animals: 
+<img src='https://imgur.com/IuVadZo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-# Smileys: https://i.imgur.com/e1aYdzK.gif
+# Smileys: 
+<img src='https://i.imgur.com/e1aYdzK.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-# All Flags: https://i.imgur.com/S2AnIls.gif
+# All Flags: 
+<img src='https://i.imgur.com/S2AnIls.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-# Russia 2018: https://i.imgur.com/4ANWQPo.gif
+# Russia 2018: 
+<img src='https://i.imgur.com/4ANWQPo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-# Brazil 2014: https://i.imgur.com/NW4UTst.gif
+# Brazil 2014: 
+<img src='https://i.imgur.com/NW4UTst.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-# NFL: https://i.imgur.com/TzNFmsB.gif
+# NFL: 
+<img src='https://i.imgur.com/TzNFmsB.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## MIT License
 
